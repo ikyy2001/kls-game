@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas - Elite Game Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                Elite Game Academy
+            </div>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+                <a href="kelas.html" class="active"><i class="fas fa-book"></i> Kelas</a>
+                <a href="mentor.html"><i class="fas fa-users"></i> Mentor</a>
+                <a href="kontak.html" class="contact-btn">Hubungi Kami</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Course Header -->
+    <header class="course-header">
+        <h1>Jelajahi Kelas Kami</h1>
+        <p>Pilih dari berbagai kelas game development sesuai dengan level dan minatmu</p>
+        
+        <!-- Search Bar -->
+        <div class="course-search">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" class="search-input" placeholder="Cari kelas...">
+        </div>
+
+        <!-- Filters -->
+        <div class="course-filters">
+            <button class="filter-btn active">Semua</button>
+            <button class="filter-btn">Beginner</button>
+            <button class="filter-btn">Intermediate</button>
+            <button class="filter-btn">Advanced</button>
+        </div>
+    </header>
+
+    <!-- Beginner Courses -->
+    <section class="course-category">
+        <h2 class="category-title">Kelas Pemula</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <div class="card-image">
+                    <span class="course-level beginner">Beginner</span>
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Game Development Fundamentals</h3>
+                    <p>Pelajari dasar-dasar pemrograman dan game development dengan Unity Engine.</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 12 Minggu</span>
+                        <span><i class="fas fa-video"></i> 24 Modul</span>
+                    </div>
+                    <a href="#" class="btn course-btn">Daftar Sekarang</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="card-image">
+                    <span class="course-level beginner">Beginner</span>
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="card-content">
+                    <h3>C# Programming for Unity</h3>
+                    <p>Kuasai bahasa pemrograman C# untuk pengembangan game dengan Unity.</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 8 Minggu</span>
+                        <span><i class="fas fa-video"></i> 16 Modul</span>
+                    </div>
+                    <a href="#" class="btn course-btn">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intermediate Courses -->
+    <section class="course-category">
+        <h2 class="category-title">Kelas Menengah</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <div class="card-image">
+                    <span class="course-level intermediate">Intermediate</span>
+                    <i class="fas fa-cube"></i>
+                </div>
+                <div class="card-content">
+                    <h3>3D Game Development</h3>
+                    <p>Kembangkan game 3D profesional dengan teknik modern dan best practices.</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 16 Minggu</span>
+                        <span><i class="fas fa-video"></i> 32 Modul</span>
+                    </div>
+                    <a href="#" class="btn course-btn">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <div class="pagination">
+        <a href="kelas.html" class="page-btn active">1</a>
+        <a href="kelas 2.html" class="page-btn">2</a>
+        <a href="#" class="page-btn">3</a>
+        <a href="#" class="page-btn"><i class="fas fa-chevron-right"></i></a>
+    </div>
+</body>
+</html>

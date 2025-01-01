@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Kelas - Elite Game Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                Elite Game Academy
+            </div>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+                <a href="kelas.html"><i class="fas fa-book"></i> Kelas</a>
+                <a href="mentor.html"><i class="fas fa-users"></i> Mentor</a>
+                <a href="kontak.html" class="contact-btn">Hubungi Kami</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="registration-header">
+        <h1>Daftar Kelas</h1>
+        <p>Mulai perjalanan Anda sebagai Game Developer profesional</p>
+    </section>
+
+    <div class="registration-container">
+        <div class="registration-grid">
+            <div class="selected-course">
+                <div class="course-preview">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h2>Detail Program</h2>
+                    <div class="course-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Durasi: 12 Minggu</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-video"></i>
+                            <span>24 Modul Pembelajaran</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Mentoring Intensif</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Sertifikat Industri</span>
+                        </div>
+                    </div>
+                    <div class="price-tag">
+                        <span class="price">Rp 12.000.000</span>
+                        <span class="discount">Hemat 35%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="registration-form">
+                <h3>Informasi Pendaftaran</h3>
+                <form id="registrationForm">
+                    <div class="form-group">
+                        <label class="form-label">Nama Lengkap</label>
+                        <input type="text" class="form-input" required placeholder="Masukkan nama lengkap Anda">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-input" required placeholder="Masukkan email aktif Anda">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Nomor Telepon</label>
+                        <input type="tel" class="form-input" required placeholder="Contoh: 08123456789">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Program yang Dipilih</label>
+                        <select class="form-input" required>
+                            <option value="">Pilih Program</option>
+                            <option value="fundamentals">Game Development Fundamentals</option>
+                            <option value="3d">3D Game Development</option>
+                            <option value="vr">VR/AR Game Development</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Metode Pembayaran</label>
+                        <div class="payment-options">
+                            <label class="payment-option">
+                                <input type="radio" name="payment" value="full">
+                                <span class="option-content">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                    <span>Bayar Penuh</span>
+                                </span>
+                            </label>
+                            <label class="payment-option">
+                                <input type="radio" name="payment" value="installment">
+                                <span class="option-content">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Cicilan</span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn registration-submit">
+                        Daftar Sekarang <i class="fas fa-arrow-right"></i>
+                    </button>
+
+                    <p class="form-note">Dengan mendaftar, Anda menyetujui <a href="#">Syarat & Ketentuan</a> serta <a href="#">Kebijakan Privasi</a> kami</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
